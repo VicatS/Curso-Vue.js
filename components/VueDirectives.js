@@ -7,6 +7,7 @@ Vue.component('vue-directives', {
                     <DirectiveHtml/>
                     <DirectiveShow/>
                     <DirectiveIf/>
+                    <DirectiveFor/>
                </div>`,
     data () {
         return {
@@ -24,5 +25,6 @@ Vue.component('vue-directives', {
         DirectiveHtml,
         DirectiveShow,
         DirectiveIf,
+        DirectiveFor,
     }
 })
