@@ -5,6 +5,8 @@ Vue.component('vue-directives', {
                     <a :href="link.href" :title="link.title" v-text="link.text"></a>
 <!--                    <directive-html></directive-html>-->
                     <DirectiveHtml/>
+                    <DirectiveShow/>
+                    <DirectiveIf/>
                </div>`,
     data () {
         return {
@@ -20,5 +22,7 @@ Vue.component('vue-directives', {
     components: {
         // 'directive-html': DirectiveHtml,
         DirectiveHtml,
+        DirectiveShow,
+        DirectiveIf,
     }
 })

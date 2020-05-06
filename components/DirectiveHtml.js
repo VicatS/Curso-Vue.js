@@ -6,7 +6,7 @@ let DirectiveHtml = {
     data () {
         return {
             title: 'Directiva v-html',
-            message: '<b>Hola desde directiva html</b>',
+            message: '<b>Hola desde directiva v-html</b>',
         }
     }
 }
